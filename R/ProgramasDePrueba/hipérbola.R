@@ -40,4 +40,4 @@ hiperbola <- function(h, k, a, b, horizontal){
             points(x = c(h), y = c(k + (a + c)), col = "red")#se suman a + c en lugar de restarlos
       }
 }
-hiperbola(1, 2, 2, 3, FALSE)
+hiperbola(1, 2, 2, 3, TRUE)
